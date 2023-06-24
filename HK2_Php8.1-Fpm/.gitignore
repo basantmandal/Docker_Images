@@ -1,0 +1,71 @@
+# Exclude Common Directory & Files
+.idea
+.cache
+.rdb
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+*.zip
+*.jar
+node_modules
+.cookie
+.lock
+.cookie
+
+# Exclude Data from MySQL Service
+var/lib/mysql/8.0/*
+!var/lib/mysql/8.0/.gitkeep
+
+var/lib/mysql/5.7/*
+!var/lib/mysql/5.7/.gitkeep
+
+var/lib/mysql/5.6/*
+!var/lib/mysql/5.6/.gitkeep
+
+# Exclude Data from RabbitMQ Service
+var/lib/rabbitmq/3.8/*
+!var/lib/rabbitmq/3.8/.gitkeep
+
+# Exclude Data from Redis Service
+var/lib/redis/5.0/*
+!var/lib/redis/5.0/.gitkeep
+
+var/lib/redis/6.0/*
+!var/lib/redis/6.0/.gitkeep
+
+var/lib/redis/6.2/*
+!var/lib/redis/6.2/.gitkeep
+
+# Exclude Data from ElasticSearch Service
+var/lib/elasticsearch/6.8/nodes/*
+!var/lib/elasticsearch/6.8/nodes/.gitkeep
+
+var/lib/elasticsearch/7.6/nodes/*
+!var/lib/elasticsearch/7.6/nodes/.gitkeep
+
+var/lib/elasticsearch/7.7/nodes/*
+!var/lib/elasticsearch/7.7/nodes/.gitkeep
+
+var/lib/elasticsearch/7.9/nodes/*
+!var/lib/elasticsearch/7.9/nodes/.gitkeep
+
+var/lib/elasticsearch/7.16/nodes/*
+!var/lib/elasticsearch/7.16/nodes/.gitkeep
+
+var/lib/elasticsearch/7.17/nodes/*
+!var/lib/elasticsearch/7.17/nodes/.gitkeep
+
+# Exclude Data from Magento 2.4.4 Folder
+var/www/magento244/*
+!var/www/magento244/.gitkeep
+!var/www/magento244/nginx.conf.sample
+!var/www/magento244/index.php
+!var/www/magento244/docker_index.php
+
+# Exclude Data from Magento 2.4.4 Folder
+var/www/magento245/*
+!var/www/magento245/.gitkeep
+!var/www/magento245/nginx.conf.sample
+!var/www/magento245/index.php
+!var/www/magento245/docker_index.php
