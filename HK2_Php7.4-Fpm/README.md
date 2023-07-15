@@ -2,7 +2,7 @@
 
 ## Description
 
-This Image is based on php7.4-fpm & contains all extensions necessary for working with Magento. This image also includes CURL, Git, Magento Cloud CLI etc. As this Image is on Beta Testing - Do not use it in Production. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues] (<https://github.com/basantmandal/Docker_Images/issues>)
+This Image is based on php7.4-fpm & contains all extensions necessary for working with Magento. This image also includes CURL, Git, Magento Cloud CLI etc. As this Image is on Beta Testing - Do not use it in Production. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues](https://github.com/basantmandal/Docker_Images/issues)
 
 ## Some of the extension added in this image for Magento Compatibility are
 
@@ -32,7 +32,7 @@ This Image is based on php7.4-fpm & contains all extensions necessary for workin
 
 ## Compatibility
 
-This Image has been tested on Ubuntu 18/20/22. We hope it should work fine in Windows and MacOS. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues] (<https://github.com/basantmandal/Docker_Images/issues>)
+This Image has been tested on Ubuntu 18/20/22. We hope it should work fine in Windows and MacOS. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues](https://github.com/basantmandal/Docker_Images/issues)
 
 ## Github Repository Link
 
