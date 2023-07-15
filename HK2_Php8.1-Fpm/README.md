@@ -1,16 +1,12 @@
-# Docker Image - HK2_Php8.1-Fpm
-
 ## Description
 
-This Image contains all extensions necessary for working with Magento
+This Image is based on php8.1-fpm & contains all extensions necessary for working with Magento. This image also includes CURL, Git, Magento Cloud CLI etc. As this Image is on Beta Testing - Do not use it in Production. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues] (<https://github.com/basantmandal/Docker_Images/issues>)
 
-## Extension Added
-
-> Some of the extension added in this image are
+## Some of the extension added in this image for Magento Compatibility are
 
 - bcmath
 - calendar
-- exif 
+- exif
 - gd
 - intl
 - mysqli
@@ -21,22 +17,21 @@ This Image contains all extensions necessary for working with Magento
 - xsl
 - zip
 
-## Required Arguments 
+## Required Arguments
+
 - USER
 - GIT_USER_NAME
 - GIT_USER_EMAIL_ID
 - EMAIL_NO_REPLY
 
-## Sample Docker Compose 
+## Sample Docker Compose
 
-[Docker Compose File](test/docker-compose.yml)
+[https://github.com/basantmandal/Docker_Images/blob/main/HK2_Php8.1-Fpm/test/docker-compose.yml](https://github.com/basantmandal/Docker_Images/blob/main/HK2_Php8.1-Fpm/test/docker-compose.yml)
 
-## Sample Magento Docker Compose
+## Compatibility
 
-## Image Name
+This Image has been tested on Ubuntu 18/20/22. We hope it should work fine in Windows and MacOS. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues] (<https://github.com/basantmandal/Docker_Images/issues>)
 
-> basantmandal/hk2-php8.1-fpm:1.0
+## Github Repository Link
 
-## Docker Hub Link
-
-https://hub.docker.com/r/basantmandal/hk2-php8.1-fpm
+[https://github.com/basantmandal/Docker_Images/tree/main/HK2_Php8.1-Fpm](https://github.com/basantmandal/Docker_Images/tree/main/HK2_Php8.1-Fpm)
