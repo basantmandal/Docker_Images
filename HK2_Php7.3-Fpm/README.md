@@ -1,3 +1,5 @@
+# HK2 - PHP7.3 Image
+
 ## Description
 
 This Image is based on php7.3-fpm & contains all extensions necessary for working with Magento. This image also includes CURL, Git, Magento Cloud CLI etc. As this Image is on Beta Testing - Do not use it in Production. In case of any issues you can file it at [https://github.com/basantmandal/Docker_Images/issues] (<https://github.com/basantmandal/Docker_Images/issues>)
@@ -35,3 +37,27 @@ This Image has been tested on Ubuntu 18/20/22. We hope it should work fine in Wi
 ## Github Repository Link
 
 [https://github.com/basantmandal/Docker_Images/tree/main/HK2_Php7.3-Fpm](https://github.com/basantmandal/Docker_Images/tree/main/HK2_Php7.3-Fpm)
+
+## Support
+
+For support, Please consult the documentation for each Docker Image. For Bug reporting and feedback about the provided Dockerfiles, Please open an [issue](https://github.com/basantmandal/Docker_Images/issues) on GitHub. When filing a bug remember that the better written the bug is, the more likely it is to be fixed.
+
+You can also reach us at <support@hashtagkitto.co.in>
+
+## Contributing
+
+This project welcomes contributions from the community.
+
+## License
+
+Copyright (c) 2019, 2023 **Basant Mandal (HK2 - Hash Tag Kitto)**
+
+## Consent
+
+By using HK2 Docker Images, you hereby consent to our disclaimer and agree to its terms.
+
+## Disclaimer
+
+> **Basant Mandal (HK2 - Hash Tag Kitto)** does not make any warranties about the completeness, reliability and accuracy of this image or its related products. Any action you take upon the information you find here is strictly at your own risk.
+
+> **Basant Mandal (HK2 - Hash Tag Kitto)** will not be liable for any losses and/or damages in connection with the use of our website.
