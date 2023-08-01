@@ -90,8 +90,9 @@ RUN (echo 'date.timezone=Asia/Kolkata' > ${CUSTOM_PHP_INI_PATH})
 
 # Move php.ini to
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
-# Install xdebug
-RUN pecl install xdebug-3.1.4 && \
+
+# Install Xdebug - 2.9.0
+RUN pecl install xdebug-2.9.0 && \
     docker-php-ext-enable xdebug && \
     mkdir /var/log/xdebug
 
