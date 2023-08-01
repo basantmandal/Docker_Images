@@ -123,6 +123,8 @@ USER $USER
 # Update Composer Auth File
 RUN mkdir -p /home/$USER/.composer && \
     touch /home/$USER/.composer/auth.json && \
+    echo "{" > /home/$USER/.composer/auth.json && \
+    echo "}" >> /home/$USER/.composer/auth.json && \
     chown -R $USER:$USER /home/$USER
 
 # Magento Cloud Installation
