@@ -19,6 +19,10 @@ This Image is based on php8.1-fpm & contains all extensions necessary for workin
 - xsl
 - zip
 
+## Other Runtime
+
+Java Development Kit v15 has been added to support any Java Program to run under this Image.
+
 ## Required Arguments
 
 - USER
@@ -61,3 +65,7 @@ By using HK2 Docker Images, you hereby consent to our disclaimer and agree to it
 > **Basant Mandal (HK2 - Hash Tag Kitto)** does not make any warranties about the completeness, reliability and accuracy of this image or its related products. Any action you take upon the information you find here is strictly at your own risk.
 
 > **Basant Mandal (HK2 - Hash Tag Kitto)** will not be liable for any losses and/or damages in connection with the use of our website.
+
+> **(HK2 - Hash Tag Kitto)** - Is not a company or provide any kind of freelancing. It is a Nickname/CodeWord.
+
+> **Basant Mandal (HK2 - Hash Tag Kitto)** - I do not accept any kind of freelance or accept any kind of paid work. Do not contact for any paid work. Just send your requirements in the email <support@hashtagkitto.co.in>, If time permists, I will add those new features. You will be give an reply in next 1-10 days, whether it can be done or progress of your feature request.
