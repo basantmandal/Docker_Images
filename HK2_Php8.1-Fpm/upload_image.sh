@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 image="basantmandal/hk2-php8.1-fpm"
-version="1.0"
+version="2.1"
 
 result=$(docker images -q ${image})
 if [[ -n "$result" ]]; then
