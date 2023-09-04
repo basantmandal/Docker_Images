@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:8.1-fpm-bullseye
 
 LABEL MAINTAINER="HashTagKitto <support@hashtagkitto.co.in>"
 
@@ -52,6 +52,11 @@ RUN apt-get update && apt-get install -y \
 
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
+
+# Install JDK-15
+RUN apt-get install -y openjdk-11-jdk 
+ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
+RUN export JAVA_HOME
 
 # Install GD
 RUN docker-php-ext-configure intl 
@@ -131,6 +136,7 @@ RUN mkdir -p /home/$USER/.composer && \
     touch /home/$USER/.composer/auth.json && \
     echo "{" > /home/$USER/.composer/auth.json && \
     echo "}" >> /home/$USER/.composer/auth.json && \
+    mkdir -p /home/$USER/.magento-cloud/bin && \
     chown -R $USER:$USER /home/$USER
 
 # Magento Cloud Installation
