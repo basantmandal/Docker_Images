@@ -12,7 +12,7 @@ ENV PHP_POST_MAX_SIZE 50MM
 
 # Other Environment Variables
 ENV TZ=Asia/Kolkata
-ARG CUSTOM_PHP_VERSION=8.1
+ARG CUSTOM_PHP_VERSION=7.3
 ENV CUSTOM_PHP_INI_PATH=/usr/local/etc/php/php.ini-development
 ENV CUSTOM_PHP_INI_DIR==/usr/local/etc/php
 
